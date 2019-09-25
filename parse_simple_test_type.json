@@ -1,0 +1,17 @@
+[
+	{
+		"id": "TestDataPointType",
+		"type": "object",
+		"classification": "dynamic",
+		"properties": {
+			"Timestamp": {
+				"type": "DateTime",
+				"isindex": true
+			},
+			"Value": {
+				"type": "number",
+				"format": "float64"
+			}
+		}
+	}
+]
